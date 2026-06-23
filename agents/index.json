@@ -1,0 +1,53 @@
+{
+  "agents": [
+    {
+      "id": "claude",
+      "name": "Claude Code",
+      "detect": ".claude",
+      "skillPath": ".claude/skills/nave",
+      "configNote": "Works with claude_code_skills in .claude/settings.json"
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "detect": ".cursor",
+      "skillPath": ".cursor/skills/nave",
+      "configNote": "Place in .cursor/skills/ for automatic pickup"
+    },
+    {
+      "id": "opencode",
+      "name": "OpenCode",
+      "detect": ".opencode",
+      "skillPath": ".opencode/skills/nave",
+      "configNote": "OpenCode reads .opencode/skills/ on startup"
+    },
+    {
+      "id": "codex",
+      "name": "Codex CLI",
+      "detect": ".codex",
+      "skillPath": ".codex/skills/nave",
+      "configNote": "Codex reads .codex/skills/ in project root"
+    },
+    {
+      "id": "windsurf",
+      "name": "Windsurf",
+      "detect": ".windsurf",
+      "skillPath": ".windsurf/skills/nave",
+      "configNote": "Works with Windsurf AI rules system"
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini CLI",
+      "detect": ".gemini",
+      "skillPath": ".gemini/skills/nave",
+      "configNote": "Gemini CLI reads .gemini/skills/ on startup"
+    },
+    {
+      "id": "antigravity",
+      "name": "Antigravity",
+      "detect": ".antigravity",
+      "skillPath": ".antigravity/skills/nave",
+      "configNote": "Antigravity skills directory"
+    }
+  ]
+}

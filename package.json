@@ -1,0 +1,35 @@
+{
+  "name": "nave",
+  "version": "0.1.0",
+  "description": "A curated skill router for AI coding agents",
+  "main": "install.js",
+  "bin": {
+    "nave": "./install.js"
+  },
+  "scripts": {
+    "postinstall": "node install.js",
+    "generate": "node install.js generate",
+    "list": "node install.js list"
+  },
+  "keywords": [
+    "ai", "agent", "skills", "claude-code", "cursor", "codex",
+    "opencode", "windsurf", "skill-router", "llm"
+  ],
+  "author": "nave-dev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nave-dev/nave"
+  },
+  "homepage": "https://github.com/nave-dev/nave",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "install.js",
+    "registry/",
+    "agents/",
+    "SKILL.md",
+    "README.md"
+  ]
+}

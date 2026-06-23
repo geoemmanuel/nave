@@ -1,0 +1,109 @@
+{
+  "version": "0.1.0",
+  "skills": [
+    {
+      "id": "karpathy",
+      "name": "Karpathy",
+      "author": "multica-ai",
+      "repo": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "stars": "174k",
+      "domain": "Agent behavior",
+      "description": "Coding discipline and behavioral guardrails for AI agents",
+      "triggers": [
+        "over-engineering", "stay focused", "think before coding",
+        "wrong direction", "silent assumptions", "production code",
+        "critical change", "multi-file task"
+      ],
+      "file": "registry/skills/karpathy.md"
+    },
+    {
+      "id": "superpowers",
+      "name": "Superpowers",
+      "author": "obra",
+      "repo": "https://github.com/obra/superpowers",
+      "stars": "226k",
+      "domain": "Planning",
+      "description": "Structured workflows for multi-step agentic tasks",
+      "triggers": [
+        "plan this", "architect this", "multi-step", "long task",
+        "don't lose context", "PRD", "spec", "from scratch", "multi-file refactor"
+      ],
+      "file": "registry/skills/superpowers.md"
+    },
+    {
+      "id": "ponytail",
+      "name": "Ponytail",
+      "author": "DietrichGebert",
+      "repo": "https://github.com/DietrichGebert/ponytail",
+      "stars": "50k",
+      "domain": "Code craft",
+      "description": "Laziest senior dev in the room. YAGNI, minimal, delete bloat",
+      "triggers": [
+        "simplest solution", "too complex", "YAGNI", "over-engineered",
+        "delete this", "minimal", "be lazy", "shortest path",
+        "adding dependency", "new abstraction"
+      ],
+      "file": "registry/skills/ponytail.md"
+    },
+    {
+      "id": "emil",
+      "name": "Emil Design Engineering",
+      "author": "emilkowalski",
+      "repo": "https://github.com/emilkowalski/skills",
+      "stars": "2.8k",
+      "domain": "Animation & motion",
+      "description": "Motion philosophy from Vercel and Linear design engineering",
+      "triggers": [
+        "animation", "transition", "easing", "motion", "spring",
+        "framer-motion", "hover effect", "page transition", "micro-interaction",
+        "scroll animation", "keyframe", "gesture"
+      ],
+      "file": "registry/skills/emil.md"
+    },
+    {
+      "id": "taste",
+      "name": "Taste Skill",
+      "author": "Leonxlnx",
+      "repo": "https://github.com/Leonxlnx/taste-skill",
+      "stars": "45k",
+      "domain": "Visual taste",
+      "description": "Anti-slop visual direction. Stop AI from generating generic UI",
+      "triggers": [
+        "does this look good", "too generic", "AI slop", "improve the UI",
+        "visual review", "aesthetic", "typography", "color palette",
+        "layout feedback", "make it better"
+      ],
+      "file": "registry/skills/taste.md"
+    },
+    {
+      "id": "impeccable",
+      "name": "Impeccable",
+      "author": "pbakaus",
+      "repo": "https://github.com/pbakaus/impeccable",
+      "stars": "28k",
+      "domain": "Design language",
+      "description": "Brand vs product thinking. Visual vocabulary and design systems",
+      "triggers": [
+        "design language", "design system", "brand", "visual vocabulary",
+        "typography system", "color system", "spacing scale",
+        "feel like a real product", "design tokens"
+      ],
+      "file": "registry/skills/impeccable.md"
+    },
+    {
+      "id": "ui-ux-pro-max",
+      "name": "UI UX Pro Max",
+      "author": "nextlevelbuilder",
+      "repo": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "stars": "88k",
+      "domain": "UX patterns",
+      "description": "99 UX guidelines, component patterns, accessibility, cross-platform",
+      "triggers": [
+        "new page", "dashboard", "landing", "onboarding", "settings",
+        "component architecture", "form design", "navigation pattern",
+        "accessibility", "responsive layout", "user flow", "admin panel"
+      ],
+      "file": "registry/skills/ui-ux-pro-max.md"
+    }
+  ]
+}
