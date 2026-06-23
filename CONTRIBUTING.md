@@ -9,7 +9,7 @@ in it should meaningfully improve agent output in a distinct domain.
 
 ### 1. Open an issue first
 
-Before building anything, open an issue at https://github.com/nave-dev/nave
+Before building anything, open an issue at https://github.com/geoemmanuel/nave
 with the title `[skill proposal] {skill-name}` and include:
 
 - Skill repo URL and author

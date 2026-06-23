@@ -5,7 +5,7 @@
 ### First time in a project
 
 ```bash
-npx nave
+npx @geoemmanuel/nave@latest
 ```
 
 Nave scans the project root for agent config directories (`.claude/`, `.cursor/`,
@@ -17,13 +17,13 @@ If multiple agents are detected, Nave installs into all of them. Each gets its o
 ### Specific agent only
 
 ```bash
-npx nave --agent claude
-npx nave --agent cursor
-npx nave --agent opencode
-npx nave --agent codex
-npx nave --agent windsurf
-npx nave --agent gemini
-npx nave --agent antigravity
+npx @geoemmanuel/nave@latest --agent claude
+npx @geoemmanuel/nave@latest --agent cursor
+npx @geoemmanuel/nave@latest --agent opencode
+npx @geoemmanuel/nave@latest --agent codex
+npx @geoemmanuel/nave@latest --agent windsurf
+npx @geoemmanuel/nave@latest --agent gemini
+npx @geoemmanuel/nave@latest --agent antigravity
 ```
 
 ### What gets installed
@@ -58,15 +58,13 @@ Nave reads the task, matches it to a skill, and opens the response with:
 
 Then responds using that skill's philosophy. No friction, no confirmation needed.
 
-**Examples of clear routing:**
-
 | You say | Nave routes to |
 |---|---|
 | "refactor this to be simpler" | ponytail |
 | "add a fade transition here" | emil |
 | "plan this auth feature" | superpowers + karpathy |
-| "design a dashboard layout" | ui-ux-pro-max + taste-skill |
-| "does this look too generic?" | taste-skill + impeccable |
+| "design a dashboard layout" | ui-ux-pro-max + taste |
+| "does this look too generic?" | taste + impeccable |
 
 ### Ambiguous tasks — suggests first
 
@@ -81,7 +79,7 @@ Two skills could apply here:
 • impeccable — audit the design language: typography hierarchy, spacing
   consistency, whether there's a clear signature element
 
-• taste-skill — tune visual direction: check for AI-slop patterns,
+• taste — tune visual direction: check for AI-slop patterns,
   adjust DESIGN_VARIANCE and MOTION_INTENSITY
 
 Which direction, or both?
@@ -105,7 +103,7 @@ with a suggestion for the current context:
 ## Listing skills
 
 ```bash
-npx nave list
+npx @geoemmanuel/nave@latest list
 ```
 
 Prints all registered skills with domain, stars, and repo link.
@@ -115,21 +113,28 @@ Prints all registered skills with domain, stars, and repo link.
 ## Keeping nave up to date
 
 ```bash
-npx nave@latest
+npx @geoemmanuel/nave@latest@latest
 ```
 
-Re-runs the installer with the latest registry. Overwrites existing nave files.
+Re-runs the installer with the latest registry. Overwrites existing nave files
+in your project.
 
 ---
 
 ## How SKILL.md is generated
 
-The root `SKILL.md` and all installed copies are **generated** from
+The root `SKILL.md` and all installed copies are generated from
 `registry/index.json` at install time. Never edit installed SKILL.md files
-by hand — your changes will be overwritten on the next `npx nave`.
+by hand — your changes will be overwritten on the next install.
 
 To modify routing behavior: edit `registry/index.json` and the skill files
-in `registry/skills/`, then run `node install.js generate`.
+in `registry/skills/`, then run:
+
+```bash
+node install.js generate
+```
+
+Commit the updated `SKILL.md` alongside your registry changes.
 
 ---
 
